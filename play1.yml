@@ -1,0 +1,7 @@
+- name: PLAY 1 win
+  hosts: winsrv01
+
+  tasks:
+
+    - name: Test connexion
+      win_ping:
